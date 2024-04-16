@@ -1,10 +1,10 @@
 import { describe, it, expect } from "vitest"
-import { myFunction } from "./main.js"
 
-describe("Default test", () => {
-  it("should work", () => {
-    const result = myFunction()
-
-    expect(result).toBe(true)
+describe("FizzBuzz", () => {
+  it("displays '1' when using 1 as an argument", () => {
+    const fizzBuzz = FizzBuzz()
+    const result = fizzBuzz.convert(1)
+    
+    expect(result).to.be('1')
   })
 })
