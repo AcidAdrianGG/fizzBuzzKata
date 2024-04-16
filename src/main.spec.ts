@@ -37,4 +37,11 @@ describe("FizzBuzz", () => {
     expect(result).toBe('Buzz')
   })
 
+  it("displays 'Fizz' when number is a multiple of 3 (using 6)", () => {
+    const fizzBuzz = new FizzBuzz()
+    const result = fizzBuzz.convert(6)
+
+    expect(result).toBe('Fizz')
+  })
+
 })
