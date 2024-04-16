@@ -44,4 +44,11 @@ describe("FizzBuzz", () => {
     expect(result).toBe('Fizz')
   })
 
+  it("displays 'Buzz' when number is a multiple of 5 (using 10)", () => {
+    const fizzBuzz = new FizzBuzz()
+    const result = fizzBuzz.convert(10)
+
+    expect(result).toBe('Buzz')
+  })
+
 })
