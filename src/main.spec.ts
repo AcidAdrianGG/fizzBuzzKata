@@ -53,7 +53,7 @@ describe("FizzBuzz", () => {
 
   it("displays 'FizzBuzz' when number is a multiple of 3 and 5 (using 15)", () => {
     const fizzBuzz = new FizzBuzz()
-    const result = fizzBuzz.convert(15)
+    const result = fizzBuzz.convert(1000000)
 
     expect(result).toBe('FizzBuzz')
   })
