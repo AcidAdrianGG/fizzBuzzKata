@@ -15,4 +15,11 @@ describe("FizzBuzz", () => {
     
     expect(result).toBe('2')
   })
+
+  it("displays '4' when using 4 as an argument", () => {
+    const fizzBuzz = new FizzBuzz()
+    const result = fizzBuzz.convert(4)
+    
+    expect(result).toBe('4')
+  })
 })
